@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import BackgroundParticles from "./Background-Particles";
 
 function App() {
-  return (
-    <h1>
-      hello world
-   </h1>
-  );
+  return <BackgroundParticles />;
 }
 
 export default App;
