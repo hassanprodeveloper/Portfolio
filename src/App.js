@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import BackgroundParticles from "./Background-Particles";
+import BackgroundParticles from "./components/Background-Particles";
 
 function App() {
   return <BackgroundParticles />;

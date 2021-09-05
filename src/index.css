@@ -6,6 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:root {
+ --color1 : #202630;
+ --color2 : #eeeeee;
+ --color3 : #555a74;
+ --color4 : #4c9596;
+ --color5 : #fdd261;
+
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -14,7 +22,7 @@ code {
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  background: #000;
+  background: var(--color1);
 }
 
 /* Track */
@@ -25,11 +33,11 @@ code {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #7c2981; 
+  background: var(--color1); 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #811886; 
+  background: var(--color1); 
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Particles from "react-tsparticles";
+import {Colors} from '../../config/design'
 
 export default class App extends Component {
   constructor(props) {
@@ -28,7 +29,7 @@ export default class App extends Component {
         options={{
           background: {
             color: {
-              value: "#000",
+              value: Colors.color1,
             },
           },
           fpsLimit: 60,
@@ -67,10 +68,10 @@ export default class App extends Component {
             },
             links: {
               color: "#ffffff",
-              distance: 150,
+              distance: 140,
               enable: true,
               opacity: 0.4,
-              width: 1,
+              width: 0.8,
             },
             collisions: {
               enable: true,
@@ -80,15 +81,15 @@ export default class App extends Component {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 2,
+              speed: 1.8,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 1736,
+                value_area: 1900,
               },
-              value: 120,
+              value: 100,
             },
             opacity: {
               value: 0.5,
@@ -98,7 +99,7 @@ export default class App extends Component {
             },
             size: {
               random: true,
-              value: 3  ,
+              value: 3,
             },
           },
           detectRetina: true,
