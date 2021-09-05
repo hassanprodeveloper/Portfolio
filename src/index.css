@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+   padding:0;
+  margin:0;
+  font-family: 'Exo 2', sans-serif;
+}
 :root {
  --color1 : #202630;
  --color2 : #eeeeee;

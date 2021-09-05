@@ -1,0 +1,37 @@
+.section{    position: relative;
+}
+.background-particles-wrapper{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: -100;
+}
+
+.bg-transparent{
+    background: transparent;
+}
+.remove-link-style{
+    text-decoration: none;
+    background: none;
+
+}
+.selection-none{
+ -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */ 
+  
+}
+.cursor-pointer{
+    cursor: pointer ;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.transition{
+    transition: all ease-in-out 0.15s;
+}
