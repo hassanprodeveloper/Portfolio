@@ -17,7 +17,7 @@ function index() {
       >
         {/* 1st col */}
         <div className="col-lg-3 d-flex  justify-content-center align-items-center">
-          <h4 className="px-2 transition header-icon text-uppercase cursor-pointer selection-none">
+          <h4 className="px-2 transition white-text header-icon text-uppercase cursor-pointer selection-none">
             &lt;Mern Stack /&gt;
           </h4>
         </div>
@@ -27,9 +27,8 @@ function index() {
             return (
               <>
                 <h5
-                  className="px-2 mx-3   transition header-link text-capitalize cursor-pointer selection-none"
+                  className="px-2 mx-3   transition white-text header-link text-capitalize cursor-pointer selection-none"
                   onClick={() => console.log("title pressed")}
-                  style={{ color: Colors.color2 }}
                 >
                   {item.title}
                 </h5>
@@ -39,7 +38,7 @@ function index() {
         </div>
         {/* 3rd col */}
         <div className="col-lg-3  d-flex  justify-content-start align-items-center">
-          <h5 className="py-2 px-4 transition header-download-btn ext-capitalize cursor-pointer selection-none">
+          <h5 className="py-2 px-4 white-text transition header-download-btn ext-capitalize cursor-pointer selection-none">
             Download CV
           </h5>
         </div>

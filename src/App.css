@@ -1,37 +1,42 @@
-.section{    position: relative;
+.section {
+  position: relative;
 }
-.background-particles-wrapper{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top:0;
-    z-index: -100;
+.background-particles-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -100;
 }
-
-.bg-transparent{
-    background: transparent;
+.background-particles-wrapper-overlay {
+  background: red;
+  z-index: 1;
 }
-.remove-link-style{
-    text-decoration: none;
-    background: none;
-
+.bg-transparent {
+  background: transparent;
 }
-.selection-none{
- -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Likely future */ 
-  
+.remove-link-style {
+  text-decoration: none;
+  background: none;
 }
-.cursor-pointer{
-    cursor: pointer ;
+.selection-none {
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
 }
-.text-uppercase{
-    text-transform: uppercase;
+.cursor-pointer {
+  cursor: pointer;
 }
-.text-capitalize{
-    text-transform: capitalize;
+.text-uppercase {
+  text-transform: uppercase;
 }
-.transition{
-    transition: all ease-in-out 0.15s;
+.text-capitalize {
+  text-transform: capitalize;
+}
+.transition {
+  transition: all ease-in-out 0.15s;
+}
+.white-text {
+  color: var(--color2);
 }

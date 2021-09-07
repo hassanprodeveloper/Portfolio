@@ -64,10 +64,10 @@ export default class App extends Component {
           },
           particles: {
             color: {
-              value: "#ffffff",
+              value: Colors.color2,
             },
             links: {
-              color: "#ffffff",
+              color: Colors.color2,
               distance: 140,
               enable: true,
               opacity: 0.4,
