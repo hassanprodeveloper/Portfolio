@@ -87,9 +87,9 @@ export default class App extends Component {
             number: {
               density: {
                 enable: true,
-                value_area: 1900,
+                value_area: 1000,
               },
-              value: 70,
+              value: 5,
             },
             opacity: {
               value: 0.5,

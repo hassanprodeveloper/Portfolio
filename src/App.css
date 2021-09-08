@@ -12,6 +12,12 @@
   background: red;
   z-index: 1;
 }
+.section-one-title-name{
+    font-size: 100px;
+    font-weight: 500;
+}
+
+/* global classes  */
 .bg-transparent {
   background: transparent;
 }
@@ -39,4 +45,9 @@
 }
 .white-text {
   color: var(--color2);
+}
+.flex-center{
+display: flex;
+justify-content: center;
+align-items: center;
 }
